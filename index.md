@@ -1,10 +1,12 @@
 # Cypher Coq formalization
 
-## About 
+This projects aims to formalize [Cypher](https://neo4j.com/developer/cypher/), a graph query language,
+in the [Coq](https://coq.inria.fr) proof assistant.
+The formalization follows O.H. Morra's paper
+["A Semantics of GQL. A New Query Language for Property Graph formalized"](https://github.com/OlofMorra/GQL-parser/blob/main/src/main/resources/report/A%20Semantics%20of%20GQL%3B%20a%20New%20Query%20Language%20forProperty%20Graphs%20Formalized.pdf).
 
-Welcome to the Cypher formalization project website!
-
-This projects contains a Coq model of the Cypher Query language, as described in O.H. Morra's [paper](https://github.com/OlofMorra/GQL-parser/blob/main/src/main/resources/report/A%20Semantics%20of%20GQL%3B%20a%20New%20Query%20Language%20forProperty%20Graphs%20Formalized.pdf) "A Semantics of GQL. A New Query Language for Property Graph formalized".
+The purpose of the formalization is to make a rigid foundation for further evolution of the language
+as well as to provide a framework for verifying optimizations of queries.
 
 ## Get the code
 
